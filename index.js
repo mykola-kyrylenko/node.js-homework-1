@@ -29,7 +29,7 @@ const invokeAction = async({ action, id, name, email, phone }) =>{
 
     default:
       console.warn('\x1B[31m Unknown action type!');
-  }
+  };
 }
 
 const yargs = require("yargs");

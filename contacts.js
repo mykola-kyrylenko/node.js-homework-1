@@ -43,7 +43,7 @@ const addContact = async ( name, email, phone ) => {
     contacts.push(newContact);
     await updateContacts(contacts);
     return newContact;
-};
+}
 
 
 module.exports = {
